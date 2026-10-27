@@ -1,29 +1,27 @@
-# homebrew-tap
+# Modo Labs macOS Utilities
 
-Official Homebrew Cask tap for **Modo Labs** macOS utilities.
+Official Homebrew Tap for **Modo Labs** native macOS software.
 
-## How to install
+## Applications
 
-```bash
-brew tap alaska14/tap
-```
+- **CleanKeys:** Distraction-free volume & brightness on macOS. Fully headless.  
+  👉 [Get on Gumroad ($2.99+)](https://modolabs.gumroad.com/l/fkwin) · [GitHub Repo](https://github.com/alaska14/cleankeys)
+  ```bash
+  brew install --cask alaska14/tap/cleankeys
+  ```
 
-### Install CleanKeys (Free):
-```bash
-brew install --cask cleankeys
-```
+- **FoldAwake:** Run your MacBook with the lid closed without external displays or overheating.  
+  👉 [Get on Gumroad ($2.99+)](https://modolabs.gumroad.com/l/ttmmisw) · [GitHub Repo](https://github.com/alaska14/foldawake)
+  ```bash
+  brew install --cask alaska14/tap/foldawake
+  ```
 
-### Install FoldAwake (Free):
-```bash
-brew install --cask foldawake
-```
+- **ChargeBar:** Real-time charging wattage and battery telemetry in your menu bar.  
+  👉 [Get on Gumroad ($2.99+)](https://modolabs.gumroad.com) · [GitHub Repo](https://github.com/alaska14/chargebar)
+  ```bash
+  brew install --cask alaska14/tap/chargebar
+  ```
 
 ---
 
-## Support the Developer
-
-If you love these utilities and want to support continued development, you can buy a coffee or pay what you want on Gumroad:
-- **CleanKeys:** [modolabs.gumroad.com/l/fkwin](https://modolabs.gumroad.com/l/fkwin)
-- **FoldAwake:** [modolabs.gumroad.com/l/ttmmisw](https://modolabs.gumroad.com/l/ttmmisw)
-
-Crafted with care by **Modo Labs**.
+Visit the official studio storefront: **[modolabs.gumroad.com](https://modolabs.gumroad.com)**
