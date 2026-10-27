@@ -1,6 +1,6 @@
 cask "foldawake" do
   version "1.1.3"
-  sha256 "eb58736634a8c484141b2d1d133a8a2134733ee4d8b36b818bcac5aadff1a355"
+  sha256 "f03d59c7c99be591a2f68f96e2dcfe46d48715475b3194e753dbf5f54056dc1b"
 
   url "https://github.com/alaska14/foldawake/releases/download/v1.1.3/FoldAwake-1.0.dmg"
   name "FoldAwake"
