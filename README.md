@@ -1,25 +1,15 @@
-# homebrew-tap
+# Modo Labs macOS Utilities
 
-Official Homebrew Cask tap for **Modo Labs** macOS utilities.
+Official project hub for **Modo Labs** macOS software.
 
-## How do I install these formulae?
+## Applications
 
-```bash
-brew tap alaska14/tap
-```
+- **CleanKeys:** Distraction-free volume & brightness on macOS. Fully headless.  
+  👉 [Get on Gumroad ($2.99+)](https://modolabs.gumroad.com/l/fkwin) · [GitHub Repo](https://github.com/alaska14/cleankeys)
 
-### Install CleanKeys:
-```bash
-brew install --cask cleankeys
-```
+- **FoldAwake:** Run your MacBook with the lid closed without external displays.  
+  👉 [Get on Gumroad ($2.99+)](https://modolabs.gumroad.com/l/ttmmisw) · [GitHub Repo](https://github.com/alaska14/foldawake)
 
-### Install FoldAwake:
-```bash
-brew install --cask foldawake
-```
+---
 
-## Documentation
-
-- **CleanKeys:** [github.com/alaska14/cleankeys](https://github.com/alaska14/cleankeys)
-- **FoldAwake:** [github.com/alaska14/foldawake](https://github.com/alaska14/foldawake)
-- **Store:** [modolabs.gumroad.com](https://modolabs.gumroad.com)
+Visit the official storefront: **[modolabs.gumroad.com](https://modolabs.gumroad.com)**
