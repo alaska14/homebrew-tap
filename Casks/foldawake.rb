@@ -1,10 +1,10 @@
 cask "foldawake" do
-  version "1.1.0"
-  sha256 "e5b0130cbd515042a4bed5b89ac7b6f3f1483b7050898097d5c4276438bbce48"
+  version "1.1.1"
+  sha256 "1bd6f0be8befce14a8b3370ae88b4708a1b2a5116af6b8aaea58126db9fbbaa2"
 
-  url "https://github.com/alaska14/foldawake/releases/download/v#{version}/FoldAwake-1.0.dmg"
+  url "https://github.com/alaska14/foldawake/releases/download/v1.1.1/FoldAwake-1.0.dmg"
   name "FoldAwake"
-  desc "Run your MacBook with the lid closed with auto-dimming display & keyboard"
+  desc "Run your MacBook with the lid closed without external displays"
   homepage "https://modolabs.gumroad.com/l/ttmmisw"
 
   app "FoldAwake.app"
