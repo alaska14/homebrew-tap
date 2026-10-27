@@ -1,8 +1,8 @@
 cask "chargebar" do
-  version "1.1.5"
-  sha256 "2b258199d5402b99f2deb58f6fe97e79623cc62a7ddb3c190f4d7bc3f382fa2b"
+  version "1.1.6"
+  sha256 "94b7acccf126d1ef1685a5342fe96a9d02ef0e9cd13b2460b5ab0a17b3bc3755"
 
-  url "https://github.com/alaska14/chargebar/releases/download/v1.1.5/ChargeBar-1.0.dmg"
+  url "https://github.com/alaska14/chargebar/releases/download/v1.1.6/ChargeBar-1.0.dmg"
   name "ChargeBar"
   desc "Invisible 1:1 drop-in replacement for macOS battery with real-time charging wattage"
   homepage "https://modolabs.gumroad.com/l/chargebar"
