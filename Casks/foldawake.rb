@@ -1,8 +1,8 @@
 cask "foldawake" do
-  version "1.1.3"
-  sha256 "f03d59c7c99be591a2f68f96e2dcfe46d48715475b3194e753dbf5f54056dc1b"
+  version "1.1.4"
+  sha256 "a12c413aa12cdb70bbfab90fafb374844b4e1eb84b43b0a856fac73e7ae57ad2"
 
-  url "https://github.com/alaska14/foldawake/releases/download/v1.1.3/FoldAwake-1.0.dmg"
+  url "https://github.com/alaska14/foldawake/releases/download/v1.1.4/FoldAwake-1.0.dmg"
   name "FoldAwake"
   desc "Run your MacBook with the lid closed with auto-dimming & Thermal Guardian"
   homepage "https://modolabs.gumroad.com/l/ttmmisw"
