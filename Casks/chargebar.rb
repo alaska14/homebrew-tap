@@ -1,6 +1,6 @@
 cask "chargebar" do
   version "1.1.7"
-  sha256 "3a729530a3af719282821373b0085830f7589367574e1b180f28612fcb88a9d5"
+  sha256 "4096f94a7ac793422ac405651868c2eafc099a120c31d0f910d8e8e03c3a1835"
 
   url "https://github.com/alaska14/chargebar/releases/download/v1.1.7/ChargeBar-1.0.dmg"
   name "ChargeBar"
