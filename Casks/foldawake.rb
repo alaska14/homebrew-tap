@@ -5,7 +5,7 @@ cask "foldawake" do
   url "https://github.com/alaska14/foldawake/releases/download/v1.1.4/FoldAwake-1.0.dmg"
   name "FoldAwake"
   desc "Run your MacBook with the lid closed with auto-dimming & Thermal Guardian"
-  homepage "https://monolab.gumroad.com/l/ttmmisw"
+  homepage "https://monolab-apps.gumroad.com/l/ttmmisw"
 
   app "FoldAwake.app"
 
