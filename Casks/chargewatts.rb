@@ -1,19 +1,20 @@
 cask "chargewatts" do
   version "1.2.0"
-  sha256 "db295272365ad8dff766aaf4244b709e0dc6fae681f910b855a37ae24c8ab467"
+  sha256 :no_check
 
-  url "https://github.com/alaska14/chargewatts/releases/download/v1.2.0/ChargeWatts-1.0.dmg"
+  url "https://github.com/alaska14/chargewatts/releases/download/v1.2.0/ChargeWatts-1.2.dmg"
   name "ChargeWatts"
-  desc "1:1 pixel-perfect Apple battery replacement that shows live wattage on hover & plug-in"
-  homepage "https://monolab-apps.gumroad.com/l/chargewatts"
+  desc "1:1 pixel-perfect Apple battery replacement with live wattage and zero duplicate icons"
+  homepage "https://github.com/alaska14/chargewatts"
 
   app "ChargeWatts.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/ChargeWatts.app"],
-                   sudo: false
-  end
+  uninstall quit: "com.monolab.chargewatts",
+            postflight: -> {
+              system_command "/usr/bin/defaults",
+                             args: ["-currentHost", "write", "com.apple.controlcenter", "Battery", "-int", "2"]
+              system_command "/usr/bin/killall", args: ["ControlCenter"]
+            }
 
   zap trash: [
     "~/Library/Preferences/com.monolab.chargewatts.plist",

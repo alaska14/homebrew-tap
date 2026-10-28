@@ -1,15 +1,15 @@
 cask "brightkeys" do
   version "1.0.0"
-  sha256 "cb6f631dbce7144ebb3988f1f697770af0605465fe3329cd8d8ac3c02d4491b8"
+  sha256 :no_check
 
-  url "https://github.com/alaska14/brightkeys/releases/download/v#{version}/BrightKeys.dmg"
-  name "BrightKeys"
-  desc "Restore dedicated keyboard backlight control to F5 and F6 keys on Apple Silicon"
-  homepage "https://monolab-apps.gumroad.com"
-
-  depends_on macos: ">= :monterey"
+  url "https://github.com/alaska14/brightkeys/releases/download/v1.0.0/BrightKeys-1.0.dmg"
+  name "bright keys."
+  desc "Silent background utility restoring hardware F5/F6 keyboard backlight controls"
+  homepage "https://github.com/alaska14/brightkeys"
 
   app "BrightKeys.app"
+
+  uninstall quit: "com.monolab.brightkeys"
 
   zap trash: [
     "~/Library/Preferences/com.monolab.brightkeys.plist",
