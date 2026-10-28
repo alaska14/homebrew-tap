@@ -5,7 +5,7 @@ cask "cleankeys" do
   url "https://github.com/alaska14/cleankeys/releases/download/v1.0.0/CleanKeys-1.0.dmg"
   name "CleanKeys"
   desc "Fully headless macOS utility to silence volume and brightness HUD popups"
-  homepage "https://modolabs.gumroad.com/l/cleankeys"
+  homepage "https://monolabapps.gumroad.com/l/cleankeys"
 
   app "CleanKeys.app"
 
