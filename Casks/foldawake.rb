@@ -10,10 +10,8 @@ cask "foldawake" do
   app "FoldAwake.app"
 
   # The app is ad-hoc signed (not notarized); remove the quarantine flag so it can launch.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/FoldAwake.app"],
-                   sudo: false
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "#{appdir}/FoldAwake.app"], must_succeed: false
   end
 
   # Quitting FoldAwake restores normal lid sleep (pmset disablesleep 0).

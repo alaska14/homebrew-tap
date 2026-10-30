@@ -12,11 +12,13 @@ cask "chargewatts" do
   uninstall quit:       "com.monolab.chargewatts",
             login_item: "ChargeWatts"
 
-  # Restore Apple's stock battery icon after ChargeWatts is removed
-  uninstall_postflight do
-    system_command "/usr/bin/defaults",
-                   args: ["-currentHost", "write", "com.apple.controlcenter", "Battery", "-int", "2"]
-    system_command "/usr/bin/killall", args: ["ControlCenter"], must_succeed: false
+  # Quitting ChargeWatts already restores Apple's stock battery icon; this is a safety net
+  # in case the app was not running at uninstall time.
+  uninstall_postflight_steps do
+    run "/usr/bin/defaults",
+        args:         ["-currentHost", "write", "com.apple.controlcenter", "Battery", "-int", "2"],
+        must_succeed: false
+    run "/usr/bin/killall", args: ["ControlCenter"], must_succeed: false
   end
 
   zap trash: "~/Library/Preferences/com.monolab.chargewatts.plist"
