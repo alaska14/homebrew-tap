@@ -2,6 +2,13 @@
 
 Official Homebrew Tap for **MonoLab** native macOS software.
 
+## Setup
+
+```bash
+brew tap alaska14/tap
+brew trust alaska14/tap   # required by Homebrew 7+ for third-party taps
+```
+
 ## Applications
 
 - **CleanKeys:** Distraction-free volume & brightness on macOS. Fully headless.  
@@ -21,6 +28,14 @@ Official Homebrew Tap for **MonoLab** native macOS software.
   ```bash
   brew install --cask alaska14/tap/chargewatts
   ```
+
+- **BrightKeys:** Restore F5/F6 keyboard backlight control on Apple Silicon MacBooks.  
+  👉 [GitHub Repo](https://github.com/alaska14/brightkeys)
+  ```bash
+  brew install --cask alaska14/tap/brightkeys
+  ```
+
+> The apps are not notarized yet: on first launch, right-click the app → **Open** (or System Settings → Privacy & Security → **Open Anyway**).
 
 ---
 
