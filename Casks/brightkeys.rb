@@ -1,6 +1,6 @@
 cask "brightkeys" do
   version "1.0.1"
-  sha256 "541c798a67c6929f5f747a4d62775700b41f6f9827a9dfeef6c626bee1948784"
+  sha256 "4989583362473c60153d0e92a4957cf8d38fa08a011f184641cd7610935fb9d8"
 
   url "https://github.com/alaska14/brightkeys/releases/download/v#{version}/BrightKeys-#{version}.dmg"
   name "BrightKeys"

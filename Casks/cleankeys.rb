@@ -1,6 +1,6 @@
 cask "cleankeys" do
   version "1.0.2"
-  sha256 "35b36f6687c686bfb79f933c308002a77658bd04be09841bb5c8a8a0020bd683"
+  sha256 "b98f3b598b76039ece2def6af42f154343b28fec3daa9ab4b04c41136d9c940e"
 
   url "https://github.com/alaska14/cleankeys/releases/download/v#{version}/CleanKeys-#{version}.dmg"
   name "CleanKeys"

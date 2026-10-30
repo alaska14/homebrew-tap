@@ -1,6 +1,6 @@
 cask "chargewatts" do
   version "1.2.4"
-  sha256 "2643c6714c206745108831bb527a33d67861123bf8729590a252a53100e193af"
+  sha256 "444a2756afcaca0da75b92fe565fdb39b63adfddbd9359a0edf0fa304d674777"
 
   url "https://github.com/alaska14/chargewatts/releases/download/v#{version}/ChargeWatts-#{version}.dmg"
   name "ChargeWatts"
